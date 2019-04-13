@@ -8,6 +8,8 @@ import { VoteDetailComponent } from './vote-detail/vote-detail.component';
 import { VoteDisplayComponent } from './vote-display/vote-display.component';
 import { VoteSnapComponent } from './vote-snap/vote-snap.component';
 import {NgZorroAntdModule} from 'ng-zorro-antd';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -21,7 +23,10 @@ import {NgZorroAntdModule} from 'ng-zorro-antd';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgZorroAntdModule
+    NgZorroAntdModule,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
