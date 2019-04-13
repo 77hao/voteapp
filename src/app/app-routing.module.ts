@@ -8,7 +8,7 @@ import { VoteSnapComponent } from './vote-snap/vote-snap.component';
 const routes: Routes = [
   {path: '', redirectTo: '/voteform', pathMatch: 'full'},
   {path: 'voteform', component: VoteFormComponent},
-  {path: 'votedetail/id', component: VoteDetailComponent},
+  {path: 'votedetail/:id', component: VoteDetailComponent},
   {path: 'votedisplay', component: VoteDisplayComponent},
   {path: 'votesnap', component: VoteSnapComponent}
 ];
